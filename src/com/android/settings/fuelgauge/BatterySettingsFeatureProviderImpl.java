@@ -38,11 +38,6 @@ public class BatterySettingsFeatureProviderImpl implements BatterySettingsFeatur
     }
 
     @Override
-    public boolean isBatteryInfoEnabled(Context context) {
-        return false;
-    }
-
-    @Override
     public void addBatteryTipDetector(
             Context context,
             List<BatteryTip> batteryTips,
